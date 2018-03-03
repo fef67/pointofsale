@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Example Spring Boot On AWS
 Resources:
-  PetStoreFunction:
+  HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.fef.pos.core.aws.StreamLambdaHandler::handleRequest
