@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: com.fef.pos.core.aws.StreamLambdaHandler::handleRequest
       Runtime: java8
-      CodeUri: PointOfSale-0.0.1-SNAPSHOT.jar
+      CodeUri: target/PointOfSale-0.0.1-SNAPSHOT.jar
       MemorySize: 1512
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 60
